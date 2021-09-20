@@ -5,29 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-    <style>
-        body{
-            text-align: center;
-            font-size: 2em;
-            padding: auto;                         
-        }
-        #button{
-            font-size: 0.5em;
-        }
-        #result{
-            font-weight: bold;
-        }
-        .positive{
-            color: green;
-        }
-        .negative{
-            color: red;
-        }
-        .neutral{
-            color: gray;
-        }
-    </style>
 </head>
 <body>
     
@@ -39,6 +18,9 @@
         </button>
     </div>
     <div id="result"> The result is: </div>
-    <div id="loading" hidden>loading..</div>
+    <!-- <div id="loading" hidden=true >loading..</div> -->
+    <div id="loading" hidden=true >loading..<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    <div id="mistake"></div>
+    <div id="catImg"></div>
 </body>
 </html>
